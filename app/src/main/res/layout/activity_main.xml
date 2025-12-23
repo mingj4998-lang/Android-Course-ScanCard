@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/root_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="18dp"
+        android:orientation="vertical"
+        android:background="#F7F7F7">
+
+        <!-- 顶部标题区域 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:id="@+id/tv_main_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="证件识别"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#111111"/>
+
+        </LinearLayout>
+
+        <!-- 功能入口标题 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="功能入口"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#111111"/>
+
+        <!-- 身份证入口（卡片样式） -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="14dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="身份证识别"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#111111" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="正反面拍照识别/信息一键复制"
+                android:textSize="13sp"
+                android:textColor="#666666" />
+
+            <Button
+                android:id="@+id/btn_to_idcard"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="12dp"
+                android:text="开始识别身份证"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+        <!-- 银行卡入口（卡片样式） -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="银行卡识别"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#111111" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="识别卡号、发卡行信息/信息一键复制"
+                android:textSize="13sp"
+                android:textColor="#666666" />
+
+            <Button
+                android:id="@+id/btn_to_bankcard"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="12dp"
+                android:text="开始识别银行卡"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+        <!-- 底部隐私提示 -->
+        <TextView
+            android:id="@+id/tv_privacy_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:text="历史记录仅保存在本机最近 5 条"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</ScrollView>

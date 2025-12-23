@@ -1,0 +1,19 @@
+# Android/Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+out/
+
+# Local machine config (SDK path)
+local.properties
+
+# Keystore 
+*.jks
+*.keystore
+
+# Secret env file
+.env
