@@ -147,10 +147,9 @@
 
 - 设备：真机或模拟器（需要相机能力；模拟器可用虚拟相机/导入图片）
 ### 4.1 运行结果展示(仅展示身份证界面)
-![ea1b0dfa014d18f341f48271ff831e25](https://github.com/user-attachments/assets/08c596f7-8a00-41c4-b147-0000ac7600c7)
-![qq_pic_merged_1766505138152](https://github.com/user-attachments/assets/b80997d0-d039-454a-ac79-a4125bf3b1e7)
-![3b781eca4847a200f9909ff7a01d2296](https://github.com/user-attachments/assets/cb5b77f7-9dc2-47de-b750-c66f4a8ff0c7)
-
+<img width="297" height="412" alt="image" src="https://github.com/user-attachments/assets/7945f266-d43a-4c68-9fa2-fb7a8457338f" />
+<img width="299" height="419" alt="image" src="https://github.com/user-attachments/assets/0782c0b6-15aa-4b8e-a814-659bac04b7c4" />
+<img width="297" height="354" alt="image" src="https://github.com/user-attachments/assets/6f104c1b-478f-44f3-b01d-eca5061709a0" />
 
 
 ### 4.2 运行步骤
