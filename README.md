@@ -2,15 +2,6 @@
 
  本项目为《移动开发技术》课程大作业。  
  - 我做了一个 **身份证识别 + 银行卡识别** 的小应用：通过系统相机拍照，把图片压缩后转为 Base64，调用 **腾讯云 OCR 接口** 获取识别结果，并在界面展示，同时保存最近 5 条识别历史，支持一键复制结果。
- - 注：课程大作业只要求实现身份证识别，但受同学启发并且在调用腾讯云服务时看到不仅可以识别身份证还能识别银行卡、驾驶证和其他有效证件，于是我做了扩展，在身份证识别代码的基础上稍作修改实现了银行卡信息的识别；
-       仓库上传遵循老师要求，**密钥不入库**，使用 `.env` + `.gitignore` 进行屏蔽，代码里通过 `BuildConfig` 读取密钥。
- - 结合课程所学本项目主要综合使用课程内容如下：
-  **UI 设计 / 常用控件**：Button、TextView、ImageView、LinearLayout
-  **Activity 组件 / Intent 跳转**： `MainActivity` → `IdCardActivity` / `BankCardActivity`
-  **Android 存储（SharedPreferences）**： `HistoryStore` 保存最近 5 条历史记录
-  **Android 6.0 动态权限**：相机权限申请与处理
-  **网络访问**：OkHttp 发起 HTTP POST 请求、JSON（org.json）组装请求体与解析响应
-
 ---
 
 ## 1. 功能概览
